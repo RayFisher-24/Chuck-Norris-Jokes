@@ -1,5 +1,5 @@
 *{
-    margin: 10;
+    margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -19,7 +19,7 @@
     margin-bottom: 10px;
 }
 .btn > button{
-    width: 105px;
+    width: 20%;
     height: 5vh;
 }
 .btn > button:hover{
@@ -37,7 +37,7 @@
     margin-bottom: 10px;
 }
 .container > img{
-    width: 580px;
+    width: 80%;
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
