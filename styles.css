@@ -32,7 +32,7 @@
     height: auto;
     display: grid;
     justify-self: center;
-    background-image: linear-gradient(rgb(176, 245, 13), rgb(255, 0, 0));
+    background: black;
     text-align: center;
     margin-bottom: 10px;
 }
