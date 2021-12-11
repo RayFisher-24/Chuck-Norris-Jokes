@@ -1,0 +1,45 @@
+*{
+    margin: 10;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    margin: 20px;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+.header > h1,p{
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+.btn > button{
+    width: 105px;
+    height: 5vh;
+}
+.btn > button:hover{
+    background-image: linear-gradient(rgb(7, 7, 7), rgb(255, 0, 0));
+    cursor: pointer;
+    color: white;
+}
+#mrJ{
+    width: 80%;
+    height: auto;
+    display: grid;
+    justify-self: center;
+    background-image: linear-gradient(rgb(176, 245, 13), rgb(255, 0, 0));
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container > img{
+    width: 580px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-self: center;
+}
