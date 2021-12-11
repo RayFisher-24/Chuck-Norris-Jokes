@@ -5,7 +5,7 @@
 }
 .container{
     display: grid;
-    margin: 20px;
+    margin: 0px;
     background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
 }
 .header > h1,p{
@@ -27,7 +27,7 @@
     cursor: pointer;
     color: white;
 }
-#mrJ{
+.jokes{
     width: 80%;
     height: auto;
     display: grid;

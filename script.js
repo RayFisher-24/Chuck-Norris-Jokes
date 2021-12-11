@@ -6,10 +6,10 @@ function joke(id) {
             return response.json();
         })
         .then((data) => {
-            var joke = data.value;
-            console.log(joke);
+            let joke = data.value;
+            document.getElementById("mrJ").innerHTML = joke;
         })
         .catch("Sorry, I am Clown");
 }
-
 joke('j');
+
